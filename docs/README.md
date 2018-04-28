@@ -2,7 +2,7 @@
 Introduction to ruby on rails.
 
 # Table of contents
-[Methods](methods.md "more about methods")
+[Methods](./methods.md "more about methods")
 
 
 ## Running a file:
