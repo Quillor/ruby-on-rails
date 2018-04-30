@@ -1,12 +1,12 @@
 # Sample Method
-def ask(question)
-  print question
-  answer = gets
-  p "Great, I will give you #{answer} items"
-end
-#
-puts "Welcome"
-ask("How many items would you like?")
+# def ask(question)
+#   print question + " "
+#   answer = gets
+#   p "Great, I will give you #{answer.chomp} items"
+# end
+# #
+# puts "Welcome"
+# ask("How many items would you like?")
 #
 #
 #
@@ -21,3 +21,5 @@ ask("How many items would you like?")
 # name = "Tim"
 # puts "Hello, #{name} see you at #{Time.now}"
 #
+
+# p "hello".methods.sort
