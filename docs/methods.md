@@ -33,6 +33,9 @@ end
 <small>( ) are optional</small>  
 `add 2,2 `  
 
+### Multiple Methods
+`puts add( add(1,3) , 4)`
+
 
 ## Assigning a variable
 Store an answer with `gets` *Get String*
@@ -45,4 +48,11 @@ end
 
 puts "Welcome"
 ask("How many items would you like?")  
+```
+
+## Interpolation
+Mix strings with other types of information with `#{}`
+```
+name = "Tim"
+puts "Hello, #{name} see you at #{Time.now}"
 ```
